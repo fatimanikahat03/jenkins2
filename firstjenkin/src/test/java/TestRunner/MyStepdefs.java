@@ -27,7 +27,8 @@ public class MyStepdefs {
 EdgeOptions edgeOptions=new EdgeOptions();
 edgeOptions.addArguments("--remote-debugging-port=9222");
         System.setProperty("webdriver.edge.verboseLogging", "true");
-        driver=new EdgeDriver(edgeOptions);
+       // driver=new EdgeDriver(edgeOptions);
+        driver=new ChromeDriver();
 driver.get("https://www.facebook.com");
     }
 
