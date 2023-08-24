@@ -24,9 +24,9 @@ public class MyStepdefs {
     @Given("Enter URL in chrome Browser")
     public void enterURLInChromeBrowser() throws IOException {
 //        driver = BrowserCall.Browserinvocation(); //facebook.com  // implicit timeout enable for execution or sleep method
-EdgeOptions edgeOptions=new EdgeOptions();
-edgeOptions.addArguments("--remote-debugging-port=9222");
-        System.setProperty("webdriver.edge.verboseLogging", "true");
+//EdgeOptions edgeOptions=new EdgeOptions();
+//edgeOptions.addArguments("--remote-debugging-port=9222");
+  //      System.setProperty("webdriver.edge.verboseLogging", "true");
        // driver=new EdgeDriver(edgeOptions);
         driver=new ChromeDriver();
 driver.get("https://www.facebook.com");
