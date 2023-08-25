@@ -29,7 +29,7 @@ EdgeOptions edgeOptions=new EdgeOptions();
        // System.setProperty("webdriver.edge.verboseLogging", "true");
 
 edgeOptions.addArguments("--remote-debugging-port=9222");
-edgeOptions.addArguments("--headless");
+//edgeOptions.addArguments("--headless");
         edgeOptions.addArguments("--no-sandbox");
 
 Thread.sleep(2000);
