@@ -29,6 +29,8 @@ public class MyStepdefs {
         System.setProperty("webdriver.edge.driver", "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedgedriver.exe");
 
 EdgeOptions edgeOptions=new EdgeOptions();
+        EdgeOptions options = new EdgeOptions();
+options.addArguments("headless");
        // System.setProperty("webdriver.edge.verboseLogging", "true");
 
 //edgeOptions.addArguments("--remote-debugging-port=9222");
@@ -37,7 +39,7 @@ EdgeOptions edgeOptions=new EdgeOptions();
 
      //   edgeOptions.setBinary("C:\\Users\\Lenovo\\Desktop\\edgedriver_win64 (2)\\msedgedriver.exe");
 
-       driver=new EdgeDriver();
+       driver=new EdgeDriver(options);
        // driver=new ChromeDriver();https://github.com/fatimanikahat03/jenkins2.git
 driver.get("https://www.facebook.com");
     }
