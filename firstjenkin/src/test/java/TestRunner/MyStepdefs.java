@@ -95,7 +95,7 @@ driver.get("https://www.facebook.com");
         String ac=driver.getTitle();
         Assert.assertEquals(exp,ac);
 
-        //driver.close();
+        driver.close();
 
     }
 
