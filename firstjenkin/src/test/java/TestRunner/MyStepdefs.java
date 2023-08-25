@@ -35,9 +35,9 @@ EdgeOptions edgeOptions=new EdgeOptions();
 //edgeOptions.addArguments("--headless");
         //edgeOptions.addArguments("--no-sandbox");
 
-        edgeOptions.setBinary("C:\\Users\\Lenovo\\Desktop\\edgedriver_win64 (2)\\msedgedriver.exe");
+     //   edgeOptions.setBinary("C:\\Users\\Lenovo\\Desktop\\edgedriver_win64 (2)\\msedgedriver.exe");
 
-       driver=new EdgeDriver(edgeOptions);
+       driver=new EdgeDriver();
        // driver=new ChromeDriver();https://github.com/fatimanikahat03/jenkins2.git
 driver.get("https://www.facebook.com");
     }
